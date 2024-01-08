@@ -4,7 +4,7 @@ const Contact = () => {
             <h3>Zašlete mi zprávu</h3>
             <p>Pokud jsem Vás zaujal můžete mi zaslat e-mail</p>
             <div className="flex flex-col justify-center items-center">
-                <form action="https://getform.io/f/9640d04a-261e-4c3e-8808-ccbe19b998fb" method="POST" className="flex flex-col w-full">
+                <form action={import.meta.env.REACT_APP_FORM_KEY} method="POST" className="flex flex-col w-full">
                     <input type="text" name="name" placeholder="Vaše jméno..."
                         className="focus:outline-none p-2 mb-4 border-2 bg-transparent border-gray-300 rounded-md w-64"
                     />

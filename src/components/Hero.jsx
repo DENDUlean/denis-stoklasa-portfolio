@@ -5,7 +5,7 @@ import HeroDescription from "./HeroDescription";
 
 const Hero = () => {
     return (
-        <div className="lg:flex lg:flex-col lg:gap-7 lg:w-4/12 flex gap-6 flex-col w-9/12">   
+        <div className="lg:flex lg:flex-col lg:gap-7 lg:w-4/12 flex gap-4 flex-col w-9/12">   
             
             <HeroTitle/>
 

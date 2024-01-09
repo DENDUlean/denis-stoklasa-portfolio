@@ -2,7 +2,7 @@ export default [
     {
         title: 'Portfolio 2024',
         date: 'Jan 10, 2024',
-        projectUrl: 'https://github.com/DENDUlean',
+        projectUrl: 'https://github.com/DENDUlean/denis-stoklasa-portfolio',
     },
     {
         title: 'Chat app',

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const HeroDescription = () => {
     return (
-        <div className="lg:text-left sm:text-center">
+        <div className="lg:text-left lg:text-base text-center text-sm">
             <p>
                 Jmenuji se Deni Stoklasa a momentálně hledám příležitost pro vstup na trh práce na pozici Junior React developera. 
                 Pocházím z blízkého okolí Ostravy a je mi 21 let. Mé vášně a zájmy spočívají v programování a kreativní tvorbě, 

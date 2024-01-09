@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ProjectItem = ({ title, date, projectUrl}) => {
     return (
-        <div className="flex gap-12">
+        <div className="flex gap-12 lg:text-base text-xs">
             <h1 className="text-gray-500">{date}</h1>
             <Link to={projectUrl} className="font-semibold hover:text-gray-500">{title}</Link>
         </div>

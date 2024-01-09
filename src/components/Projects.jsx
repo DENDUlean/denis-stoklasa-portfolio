@@ -5,21 +5,28 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
     return (
-        <div className="flex flex-col gap-8 w-4/12">
-            <div>
-                <p className="text-gray-500">Poslední projekty</p>
-            </div>
-            <div className="flex flex-col gap-5">
-                {projectData.map(project => (
-                    <ProjectItem
-                        date={project.date}
-                        title={project.title}
-                        projectUrl={project.projectUrl}
-                    />
-                ))}
-            </div>
-            <div>
-                <Link to="/projects" className="hover:text-black text-gray-500">Veškeré projekty</Link>
+        <div className="flex flex-col lg:w-4/12 lg:gap-7 w-8/12 lg:items-start sm:items-start items-center">
+            
+            <div className="flex flex-col gap-4 w-11/12">
+                
+                <div className="lg:text-base text-xs">
+                    <p className="text-gray-500">Poslední projekty</p>
+                </div>
+
+                <div className="flex flex-col gap-3">
+                    {projectData.map(project => (
+                        <ProjectItem
+                            date={project.date}
+                            title={project.title}
+                            projectUrl={project.projectUrl}
+                        />
+                    ))}
+                </div>
+
+                <div className="lg:text-base text-xs">
+                    <Link to="/projects" className="hover:text-black text-gray-500">Veškeré projekty</Link>
+                </div>
+
             </div>
         </div>
     )

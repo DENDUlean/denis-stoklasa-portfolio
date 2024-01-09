@@ -5,7 +5,7 @@ import Stack from "../components/Stack";
 
 const Home = () => {
     return (
-        <div className="flex flex-col items-center gap-14 dark:text-white">
+        <div className="flex flex-col items-center gap-12 dark:text-white">
             
             <Hero/>
 

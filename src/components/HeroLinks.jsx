@@ -13,8 +13,8 @@ const HeroLinks = () => {
             </div>
 
             <div className="lg:flex lg:items-start lg:flex-row sm:w-full sm:items-start sm:flex sm:flex-row flex flex-col items-center gap-2">
-                <Link to="www.linkedin.com/in/denis-stoklasa-734723281" className="cursor-pointer"><FaLinkedin size={20} className="text-gray-500"/></Link>
-                <Link to="www.linkedin.com/in/denis-stoklasa-734723281" className="text-gray-500 hover:text-black sm:block hidden">Linkedln Profil</Link>
+                <Link to="https://www.linkedin.com/in/denis-stoklasa-734723281/" className="cursor-pointer"><FaLinkedin size={20} className="text-gray-500"/></Link>
+                <Link to="https://www.linkedin.com/in/denis-stoklasa-734723281/" className="text-gray-500 hover:text-black sm:block hidden">Linkedln Profil</Link>
             </div>
 
             <div className="lg:flex lg:items-start lg:flex-row sm:w-full sm:items-start sm:flex sm:flex-row flex flex-col items-center gap-2">

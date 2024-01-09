@@ -1,6 +1,6 @@
 const Stack = () => {
     return (
-        <div className="lg:flex lg:flex-col lg:w-4/12 lg:gap-5 flex flex-col gap-3 w-9/12">
+        <div className="border lg:flex lg:flex-col lg:w-4/12 lg:gap-5 flex flex-col gap-3 w-9/12">
             <div className="lg:text-left lg:text-base text-xs text-center">
                 <p>Seznam technologí, které používám</p>
             </div>

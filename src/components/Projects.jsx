@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
     return (
-        <div className="flex flex-col lg:w-4/12 lg:gap-7 w-8/12 lg:items-start sm:items-start items-center">
+        <div className="border flex flex-col lg:w-4/12 lg:gap-7 w-9/12 lg:items-start sm:items-start items-center">
             
-            <div className="flex flex-col gap-4 w-11/12">
+            <div className="border flex flex-col gap-4 w-full">
                 
                 <div className="lg:text-base text-xs">
                     <p className="text-gray-500">Poslední projekty</p>

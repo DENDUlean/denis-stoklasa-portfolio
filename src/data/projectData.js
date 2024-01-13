@@ -1,42 +1,12 @@
 export default [
     {
-        title: 'Portfolio 2024',
-        date: 'Jan 10, 2024',
-        projectUrl: 'https://github.com/DENDUlean/denis-stoklasa-portfolio',
-    },
-    {
-        title: 'Chat app',
-        date: 'Jan ??, 2024',
-        projectUrl: 'https://github.com/DENDUlean',
-    },
-    {
-        title: 'Netflix Clone',
-        date: 'Jan ??, 2024',
-        projectUrl: 'https://github.com/DENDUlean',
-    },
-    {
-        title: 'Weather App',
-        date: 'Jan ??, 2024',
-        projectUrl: 'https://github.com/DENDUlean',
-    },
-    {
-        title: 'AI Image Generator',
-        date: 'Jan ??, 2024',
-        projectUrl: 'https://github.com/DENDUlean',
-    },
-    {
-        title: 'Crypto App',
-        date: 'Jan ??, 2024',
-        projectUrl: 'https://github.com/DENDUlean',
-    },
-    {
         title: 'ChatGPT Clone',
-        date: 'Jan ??, 2024',
-        projectUrl: 'https://github.com/DENDUlean',
+        date: '12/01/2024',
+        projectUrl: 'https://github.com/DENDUlean/ChatGPT-3.5-Clone',
     },
     {
-        title: 'Simple CRUD blog',
-        date: 'Jan ??, 2024',
-        projectUrl: 'https://github.com/DENDUlean',
+        title: 'Portfolio 2024',
+        date: '09/01/2024',
+        projectUrl: 'https://github.com/DENDUlean/denis-stoklasa-portfolio',
     },
 ];

@@ -8,18 +8,18 @@ const HeroLinks = () => {
     return (
         <div className="lg:flex lg:flex-col lg:gap-2 lg:w-6/12 sm:flex sm:flex-col sm:text-start sm:items-start sm:w-4/12 sm:gap-3 flex gap-3 text-sm w-9/12 text-center justify-center">
             <div className="lg:flex lg:items-start lg:flex-row lg:w-full sm:w-full sm:items-start sm:flex sm:flex-row flex flex-col items-center gap-2">
-                <Link to="https://github.com/DENDUlean" className="cursor-pointer"><FaGithub size={20} className="text-gray-500"/></Link>
-                <Link to="https://github.com/DENDUlean" className="text-gray-500 hover:text-black sm:block hidden">Github Profil</Link>
+                <Link to="https://github.com/DENDUlean" className="cursor-pointer"><FaGithub size={20} className="text-gray-500 dark:text-white dark:hover:text-gray-300"/></Link>
+                <Link to="https://github.com/DENDUlean" className="text-gray-500 hover:text-black sm:block hidden dark:text-white dark:hover:text-gray-300">Github Profil</Link>
             </div>
 
             <div className="lg:flex lg:items-start lg:flex-row sm:w-full sm:items-start sm:flex sm:flex-row flex flex-col items-center gap-2">
-                <Link to="https://www.linkedin.com/in/denis-stoklasa-734723281/" className="cursor-pointer"><FaLinkedin size={20} className="text-gray-500"/></Link>
-                <Link to="https://www.linkedin.com/in/denis-stoklasa-734723281/" className="text-gray-500 hover:text-black sm:block hidden">Linkedln Profil</Link>
+                <Link to="https://www.linkedin.com/in/denis-stoklasa-734723281/" className="cursor-pointer"><FaLinkedin size={20} className="text-gray-500 dark:text-white dark:hover:text-gray-300"/></Link>
+                <Link to="https://www.linkedin.com/in/denis-stoklasa-734723281/" className="text-gray-500 hover:text-black sm:block hidden dark:text-white dark:hover:text-gray-300">Linkedln Profil</Link>
             </div>
 
             <div className="lg:flex lg:items-start lg:flex-row sm:w-full sm:items-start sm:flex sm:flex-row flex flex-col items-center gap-2">
-                <Link to="https://www.instagram.com/denis.stoklasa/" className="cursor-pointer"><FaInstagramSquare size={20} className="text-gray-500"/></Link>
-                <Link to="https://www.instagram.com/denis.stoklasa/" className="text-gray-500 hover:text-black sm:block hidden">Instagram Profil</Link>
+                <Link to="https://www.instagram.com/denis.stoklasa/" className="cursor-pointer"><FaInstagramSquare size={20} className="text-gray-500 dark:text-white dark:hover:text-gray-300"/></Link>
+                <Link to="https://www.instagram.com/denis.stoklasa/" className="text-gray-500 hover:text-black sm:block hidden dark:text-white dark:hover:text-gray-300">Instagram Profil</Link>
             </div>
         </div>
     )

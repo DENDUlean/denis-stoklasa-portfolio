@@ -10,7 +10,7 @@ const Projects = () => {
             <div className="flex flex-col gap-6 w-full">
                 
                 <div className="lg:text-base text-xs">
-                    <p className="text-gray-500">Poslední projekty</p>
+                    <p className="text-gray-500 dark:text-white">Poslední projekty</p>
                 </div>
 
                 <div className="flex flex-col gap-3">
@@ -24,7 +24,7 @@ const Projects = () => {
                 </div>
 
                 <div className="lg:text-base text-xs">
-                    <Link to="/projects" className="hover:text-black text-gray-500">Veškeré projekty</Link>
+                    <Link to="/projects" className="hover:text-black text-gray-500 dark:text-white dark:hover:text-gray-300">Veškeré projekty</Link>
                 </div>
 
             </div>

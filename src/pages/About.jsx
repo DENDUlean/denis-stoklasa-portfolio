@@ -33,7 +33,7 @@ const About = () => {
                         Naleznete v něm veškeré potřebné informace, které jsem zde nezmínil
                     </p>
 
-                    <a href="././assets/CV - Stoklasa Denis.pdf" download="Stoklasa-CV.pdf">
+                    <a href="././assets/CV.pdf" download="Stoklasa-CV.pdf">
                         <button typeof="button" className="inline-block bg-gray-800 text-white lg:text-sm text-xs rounded-md w-max p-2">
                             Stáhnout CV
                         </button>

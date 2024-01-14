@@ -34,7 +34,7 @@ const About = () => {
                     </p>
 
                     <a href="././assets/CV.pdf" download="Stoklasa-CV.pdf">
-                        <button typeof="button" className="inline-block bg-gray-800 text-white lg:text-sm text-xs rounded-md w-max p-2">
+                        <button typeof="button" className="inline-block bg-gray-800 text-white lg:text-sm text-xs rounded-md w-max p-2 dark:text-gray-200 dark:bg-gray-500">
                             Stáhnout CV
                         </button>
                     </a>
